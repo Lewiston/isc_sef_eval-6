@@ -1,0 +1,224 @@
+
+
+@font-face {
+    font-family: BaiJam-Bold;
+    src: url(fonts/BaiJamjuree-Bold.ttf);
+}
+
+@font-face {
+    font-family: BaiJam-Regular;
+    src: url(fonts/BaiJamjuree-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: BaiJam-Regular;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+h1, h2 {
+    font-size: 40px;
+    font-family: BaiJam-Bold;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+
+h3 {
+    font-size: 24px;
+    font-family: BaiJam-Bold;
+    color: hsl(210, 10%, 33%);
+}
+
+
+
+.hero-section {
+    height: 90vh;
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.hero-section > img {
+    width: 150px;
+    height: auto;
+    padding-bottom: 80px;
+}
+
+.hero-section > h1 {
+    padding-bottom: 24px;
+}
+
+.hero-section > p {
+    padding-bottom: 64px;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.buttons > a {
+    text-decoration: none;
+    padding: 20px 32px;
+    border-radius: 100px;
+    margin: 0px 16px;
+    color: white;
+}
+
+.ios-button {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 4px 2px hsl(171, 89%, 28%);
+}
+
+.mac-button {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 4px 2px hsl(233, 97%, 26%);
+}
+
+.section-2 {
+    text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.section-2 > h2 {
+    padding-bottom: 24px;
+}
+
+.section-2 > p {
+    padding-bottom: 64px;
+    max-width: 700px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    margin-left: -220px;
+}
+
+.text {
+    text-align: left;
+    padding: 0px 140px;
+}
+
+.text > div > h3 {
+    padding-bottom: 16px;
+}
+
+.text > div > p {
+    padding-bottom: 64px;
+}
+
+.section-2b {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-2b > h2 {
+    padding-bottom: 24px;
+}
+
+.section-2b > p{
+    padding-bottom: 64px;
+    max-width: 600px;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.items {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+}
+
+.cards {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.logos {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 120px;
+}
+
+.section-4 {
+    margin-top: 160px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-4 > h2 {
+    padding-bottom: 24px;
+}
+
+.section-4 > p {
+    padding-bottom: 64px;
+    max-width: 600px;
+}
+
+.footer {
+    margin-top: 160px;
+    background-color: hsla(202, 11%, 66%, 0.247);
+    padding: 40px 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.footer-content > img {
+    height: 64px;
+    width: auto;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.links > a {
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
