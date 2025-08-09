@@ -72,12 +72,12 @@ h3 {
 
 .ios-button {
     background-color: hsl(171, 66%, 44%);
-    box-shadow: 0px 4px 2px hsl(171, 89%, 28%);
+    box-shadow: 0px 4px 8px hsl(171, 89%, 28%);
 }
 
 .mac-button {
     background-color: hsl(233, 100%, 69%);
-    box-shadow: 0px 4px 2px hsl(233, 97%, 26%);
+    box-shadow: 0px 4px 8px hsl(233, 92%, 44%);
 }
 
 .section-2 {
@@ -173,6 +173,7 @@ h3 {
 
 .section-4 {
     margin-top: 160px;
+    text-align: center;
     align-items: center;
     display: flex;
     flex-direction: column;

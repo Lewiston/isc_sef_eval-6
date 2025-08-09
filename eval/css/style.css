@@ -34,3 +34,37 @@ nav > ul > li> a {
     color: aliceblue;
 }
 
+.hero-section {
+    height: 100vh;
+    background-image: url(../img/erwan-hesry-OlQ-NaEyVmQ-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    color: white;
+    text-align: center;
+}
+
+.hero > h2 {
+    font-size: 72px;
+    max-width: 800px;
+    padding-bottom: 24px;
+}
+
+.hero > p {
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+
+.hero > a {
+    color: aliceblue;
+    background-color: #1E90FF;
+    padding: 24px 32px;
+    border-radius: 8px;
+}
+
+/* #product-section {
+    background-color: ;
+} */
